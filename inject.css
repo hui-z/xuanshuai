@@ -1,0 +1,78 @@
+.inject-container {
+    position: fixed;
+    top: 40px;
+    right: 20px;
+    width: 300px;
+    height: 200px;
+    background-color: #303146;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, .1);
+    z-index: 9999;
+
+    box-sizing: border-box;
+    padding: 15px 30px;
+}
+
+.inject-container #close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+
+    font-size: 16px;
+    color: #fff;
+    
+    cursor: pointer;
+}
+
+.inject-container .line {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.inject-container .line > input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2px 2px 1px;
+    font-size: 14px;
+    line-height: 30px;
+    -webkit-appearance: none;
+    border-style: solid;
+    background: none;
+    outline: none;
+
+    color: #EAEAEA;
+    border-width: 0 0 1px;
+    border-color: rgba(255,255,255,.1);
+}
+
+.inject-container .line > button {
+    position: relative;
+    height: 36px;
+    width: 88px;
+    padding: 0;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    text-decoration: none;
+    background: transparent;
+    color: #fff;
+    background-color: #7ca7ff;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: hidden;
+    -webkit-transition: box-shadow .4s cubic-bezier(.25, .8, .25, 1), background-color .4s cubic-bezier(.25, .8, .25, 1);
+    transition: box-shadow .4s cubic-bezier(.25, .8, .25, 1), background-color .4s cubic-bezier(.25, .8, .25, 1);
+}
+
+.inject-container .line > button:hover {
+    background-color: rgba(124,167,255,.7);
+}
