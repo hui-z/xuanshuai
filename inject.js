@@ -1,5 +1,4 @@
 ~(function() {
-    console.log('shuaifeitian');
     let div = document.createElement('div');
     div.classList.add('inject-container');
     div.innerHTML = `<div class="">
